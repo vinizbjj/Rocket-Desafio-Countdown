@@ -105,11 +105,12 @@
     color: #C8C8C8;
 }
 
-.countdown-container{
+.countdown-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .counting-days {
     position: absolute;
     width: 494px;
@@ -221,6 +222,7 @@
     top: 457px;
     background: #6C63FF;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .txt-sub {
@@ -264,4 +266,69 @@ footer {
     top: 542px;
     background: rgba(221, 219, 242, 0.26);
     background-color: white;
+}
+
+/*modal
+
+*/
+
+.back-sub:hover {
+    background: black;
+    color: #6C63FF;
+}
+
+
+.modal {
+    width: 400px;
+    height: 35px;
+    position: absolute;
+    left: 380px;
+    top: 400px;
+    transform: translate(-50%, -50%);
+    display: none;
+    animation: animate;
+    animation-duration: 800ms;
+
+
+}
+
+@keyframes animate {
+    from {
+        opacity: 1;
+    }
+
+    from {
+        opacity: 0;
+    }
+}
+
+.fechar {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+}
+
+.send-modal {
+    background: rgb(227, 227, 238);
+    width: 250px;
+    height: 40px;
+    background: white;
+    color: black;
+}
+
+.btn-modal {
+    background: rgb(227, 227, 238);
+    width: 60px;
+    height: 40px;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-modal:hover {
+    background: #6C63FF;
+    color: white;
 }

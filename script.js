@@ -31,3 +31,16 @@ function formatTime(time) {
 countdown();
 
 setInterval(countdown, 1000);
+
+
+function acao(params) {
+    let modal = document.querySelector('.modal')
+
+    modal.style.display = 'block'
+}
+
+function fechar(params) {
+    let modal = document.querySelector('.modal')
+
+    modal.style.display = 'none';
+}
