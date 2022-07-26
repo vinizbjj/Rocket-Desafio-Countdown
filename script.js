@@ -4,7 +4,7 @@ const minutesEL = document.getElementById("minutes")
 const secondsEL = document.getElementById("seconds")
 
 
-const newYears = "1 jAN 2023";
+const newYears = "1 Jan 2023";
 
 function countdown() {
 
